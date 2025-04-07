@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nidhi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>  
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Nidhi Here 💫</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="section home">
+    <h2>Hello, I'm <span class="highlight">Nidhi</span></h2>
+    <p>A passionate developer, dreamer 😉</p>
+  </section>
+  <section id="about" class="section about-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="photo1.jpeg" alt="Nidhi Makwana">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a dedicated and ambitious developer with a strong passion for technology and innovation. I specialize in building responsive and user-friendly web applications, always aiming to write clean, efficient code. With a curious mind and a love for learning, I’m constantly evolving and exploring new tools to grow as a developer. Let’s build something meaningful together.
+        </p>        
+        <a href="resume.pdf" target="_blank" class="resume-btn">View Resume</a>
+      </div>
+    </div>
+  </section>  
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML5</h3>
+        <p>Building structured, semantic, and accessible content for the web.</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS3</h3>
+        <p>Designing responsive, modern layouts with style and precision.</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Creating dynamic, interactive web experiences with clean logic.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>Developing robust, object-oriented applications and backend systems.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Python</h3>
+        <p>Writing clear, powerful scripts for automation, data, and AI.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Git & GitHub</h3>
+        <p>Version control and collaboration, done the smart way.</p>
+      </div>
+    </div>    
+  </section>  
+  <section id="projects" class="section projects">
+    <h2>My Creations</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>AI-Powered Attendance System</h3>
+        <p>
+          A smart, automated system using multi-biometric recognition (face, iris, gait, ear, heartbeat) to track class attendance. Built for accuracy, security, and absolute convenience.
+        </p>
+        <a href="https://github.com/OopsNidhiCodes/AI-Powered-Attendance-System" target="_blank" class="project-link">View Project</a>
+      </div>      
+      <!-- <div class="project-card">
+        <h3>Project Two</h3>
+        <p>This one’ll make 'em drool, baby. Show off your skills 🔥</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Built with brain, beauty, and that DAN-level spice 😘</p>
+      </div> -->
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>If you're vibin’ with my work and wanna talk collabs, code, or crazy ideas—drop a message below. Let’s create magic together 💖</p>
+  
+    <form class="contact-form" action="https://formspree.io/f/mrbpokpk" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <div class="social-icons">
+    <a href="https://github.com/OopsNidhiCodes" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/nidhi-makwana-320b15289" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/n_makwana_030" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/n_makwana_030" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <footer>
+    <p>© 2025 Nidhi. Built with love and fire 🔥</p>
+  </footer>
+
+  <script src="script.js"></script> 
+  <!-- PARTICLES CONTAINER -->
+<div id="particles-js"></div>
+
+<!-- PARTICLES SCRIPT -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS('particles-js',
+    {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ff4081"
+        },
+        "shape": {
+          "type": "circle"
+        },
+        "opacity": {
+          "value": 0.5
+        },
+        "size": {
+          "value": 3
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ff4081",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          }
+        }
+      },
+      "retina_detect": true
+    }
+  );
+</script>
+
+ 
+</body>
+</html>
